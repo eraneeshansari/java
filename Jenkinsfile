@@ -1,16 +1,17 @@
 pipeline {
   agent any
   stages {
-    stage('Compile') {
+    stage('compile') {
       steps {
         sh 'mvn compile'
       }
     }
-    stage('Test') {
+
+    stage('test') {
       steps {
         sh 'mvn test'
-        emailext(subject: 'Test reports', body: 'Reports', attachLog: true, from: 'ashok@skillogic.com', to: 'ashok66@gmail.com')
       }
     }
+
   }
 }
