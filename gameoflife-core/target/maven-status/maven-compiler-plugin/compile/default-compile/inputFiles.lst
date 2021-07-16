@@ -1,0 +1,5 @@
+/java-project/gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/GridWriter.java
+/java-project/gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Cell.java
+/java-project/gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/GridReader.java
+/java-project/gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Universe.java
+/java-project/gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Grid.java
